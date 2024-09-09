@@ -1,0 +1,21 @@
+{%load static%}
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="{% static 'test_build/base.css' %}" >
+    {% block css %}
+    {% endblock %}
+</head>
+<body>
+    
+    <nav>
+        <ul class="navigation_bar_ul">
+            <li class="navigation_bar_ul_list">
+                <a href="{% url 'OCR' %}" class="navigation_bar_ul_anchor">OCR </a>
+
+            </li>
+        </ul>
+    </nav>
+    {% block body%}
+    {%endblock%}
+</body>
+</html>

@@ -1,0 +1,17 @@
+.navigation_bar_ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: red;
+}
+.navigation_bar_ul_list{
+    float: left;
+}
+.navigation_bar_ul_anchor{
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+.navigation_bar_ul_list a:hover{
+    background-color: black;
+}
